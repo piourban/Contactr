@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="NetPC_app:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/NetPC_app_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="NetPC_app/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="NetPC_app" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="spring-core-4.1.4.RELEASE" />
+          <element id="library" level="project" name="spring-jdbc-4.1.4.RELEASE" />
+          <element id="library" level="project" name="spring-tx-4.1.4.RELEASE" />
+          <element id="library" level="project" name="spring-beans-4.1.4.RELEASE" />
+          <element id="library" level="project" name="commons-logging-1.2" />
+          <element id="library" level="project" name="taglibs-standard-impl-1.2.1" />
+          <element id="library" level="project" name="taglibs-standard-spec-1.2.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
